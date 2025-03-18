@@ -12,18 +12,16 @@
     # pkgs.nodejs_20
     # pkgs.nodePackages.nodemon
   ];
-services.postgres = {
-  enable = true;
-  package = pkgs.postgresql;
-};
+  services.postgres = {
+    enable = true;
+    package = pkgs.postgresql;
+  };
 
   # Sets environment variables in the workspace
-  env = {};
+  env = { };
   idx = {
     # Search for the extensions you want on https://open-vsx.org/ and use "publisher.id"
-    extensions = [
-      # "vscodevim.vim"
-    ];
+    extensions = [ "muhammad-sammy.csharp" "rangav.vscode-thunder-client" ];
     # Enable previews
     previews = {
       enable = true;
@@ -53,6 +51,7 @@ services.postgres = {
       onStart = {
         # Example: start a background task to watch and re-build backend code
         # watch-backend = "npm run watch-backend";
+        run-server = "cd DevApi && dotnet watch --urls=http://localhost:3000";
       };
     };
   };
