@@ -12,6 +12,11 @@
     # pkgs.nodejs_20
     # pkgs.nodePackages.nodemon
   ];
+services.postgres = {
+  enable = true;
+  package = pkgs.postgresql;
+};
+
   # Sets environment variables in the workspace
   env = {};
   idx = {
