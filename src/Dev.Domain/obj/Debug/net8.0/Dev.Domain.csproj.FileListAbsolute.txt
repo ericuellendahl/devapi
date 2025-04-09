@@ -1,0 +1,11 @@
+/home/user/devapi/src/Dev.Domain/bin/Debug/net8.0/Dev.Domain.deps.json
+/home/user/devapi/src/Dev.Domain/bin/Debug/net8.0/Dev.Domain.dll
+/home/user/devapi/src/Dev.Domain/bin/Debug/net8.0/Dev.Domain.pdb
+/home/user/devapi/src/Dev.Domain/obj/Debug/net8.0/Dev.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/user/devapi/src/Dev.Domain/obj/Debug/net8.0/Dev.Domain.AssemblyInfoInputs.cache
+/home/user/devapi/src/Dev.Domain/obj/Debug/net8.0/Dev.Domain.AssemblyInfo.cs
+/home/user/devapi/src/Dev.Domain/obj/Debug/net8.0/Dev.Domain.csproj.CoreCompileInputs.cache
+/home/user/devapi/src/Dev.Domain/obj/Debug/net8.0/Dev.Domain.dll
+/home/user/devapi/src/Dev.Domain/obj/Debug/net8.0/refint/Dev.Domain.dll
+/home/user/devapi/src/Dev.Domain/obj/Debug/net8.0/Dev.Domain.pdb
+/home/user/devapi/src/Dev.Domain/obj/Debug/net8.0/ref/Dev.Domain.dll

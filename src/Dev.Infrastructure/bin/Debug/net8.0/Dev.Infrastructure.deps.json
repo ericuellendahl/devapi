@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Dev.Infrastructure/1.0.0": {
+        "dependencies": {
+          "Dev.Domain": "1.0.0"
+        },
+        "runtime": {
+          "Dev.Infrastructure.dll": {}
+        }
+      },
+      "Dev.Domain/1.0.0": {
+        "runtime": {
+          "Dev.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Dev.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Dev.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
