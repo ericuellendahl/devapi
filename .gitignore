@@ -3,6 +3,29 @@
 **/obj/
 out/
 .vscode/
+/src/Dev.Domain/bin/
+/src/Dev.Domain/obj/
+/src/Dev.Infrastructure/bin/
+/src/Dev.Infrastructure/obj/
+
+# Ignora bin e obj em todos os subprojetos dentro de src/
+src/**/bin/
+src/**/obj/
+
+# Outras entradas úteis
+.vscode/
+**/*.user
+**/*.suo
+*.log
+*.db
+*.sqlite*
+.env
+.env.*
+
+# Ignora appsettings por ambiente
+src/**/appsettings.*.json
+!src/**/appsettings.json
+
 
 # Rider
 .idea/
