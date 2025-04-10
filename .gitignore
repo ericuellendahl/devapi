@@ -48,6 +48,10 @@ node_modules/
 .env
 .env.*
 
+# Configurações de ambiente do .NET
+appsettings.*.json
+!appsettings.json
+
 # Others
 *.db
 *.sqlite
