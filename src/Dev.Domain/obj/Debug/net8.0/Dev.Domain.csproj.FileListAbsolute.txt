@@ -9,3 +9,4 @@
 /home/user/devapi/src/Dev.Domain/obj/Debug/net8.0/refint/Dev.Domain.dll
 /home/user/devapi/src/Dev.Domain/obj/Debug/net8.0/Dev.Domain.pdb
 /home/user/devapi/src/Dev.Domain/obj/Debug/net8.0/ref/Dev.Domain.dll
+/home/user/devapi/src/Dev.Domain/obj/Debug/net8.0/Dev.Domain.csproj.AssemblyReference.cache

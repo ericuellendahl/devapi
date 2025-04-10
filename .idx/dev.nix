@@ -12,10 +12,11 @@
     # pkgs.nodejs_20
     # pkgs.nodePackages.nodemon
   ];
-  services.postgres = {
-    enable = true;
-    package = pkgs.postgresql;
-  };
+  
+  # services.postgres = {
+  #  enable = true;
+  #  package = pkgs.postgresql;
+  # };
 
   # Sets environment variables in the workspace
   env = { };
@@ -45,7 +46,7 @@
         # Example: install JS dependencies from NPM
         # npm-install = "npm install";
         # Open editors for the following files by default, if they exist:
-        default.openFiles = [ ".idx/dev.nix" "README.md" ];
+        # default.openFiles = [ ".idx/dev.nix" "README.md" ];
       };
       # Runs when the workspace is (re)started
       onStart = {

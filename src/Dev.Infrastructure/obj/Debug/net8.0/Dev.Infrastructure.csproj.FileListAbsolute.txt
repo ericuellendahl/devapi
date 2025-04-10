@@ -13,3 +13,5 @@
 /home/user/devapi/src/Dev.Infrastructure/obj/Debug/net8.0/refint/Dev.Infrastructure.dll
 /home/user/devapi/src/Dev.Infrastructure/obj/Debug/net8.0/Dev.Infrastructure.pdb
 /home/user/devapi/src/Dev.Infrastructure/obj/Debug/net8.0/ref/Dev.Infrastructure.dll
+/home/user/devapi/src/Dev.Infrastructure/bin/Debug/net8.0/Dev.Infrastructure.runtimeconfig.json
+/home/user/devapi/src/Dev.Infrastructure/obj/Debug/net8.0/Dev.Infrastructure.genruntimeconfig.cache
