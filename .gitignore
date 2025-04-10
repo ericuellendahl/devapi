@@ -1,0 +1,63 @@
+## .NET Core / .NET 8
+bin/
+obj/
+out/
+.vscode/
+
+# Rider
+.idea/
+*.sln.iml
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Azure Web App publish settings
+*.PublishSettings
+*.pubxml
+*.publishproj
+
+# Visual Studio Code settings
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+
+# Mac system files
+.DS_Store
+
+# Windows thumbnail cache files
+Thumbs.db
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+
+# Logs
+*.log
+
+# npm packages (caso use front-end junto)
+node_modules/
+
+# Environment files
+.env
+.env.*
+
+# Others
+*.db
+*.sqlite
+*.sqlite3
+
+# Test results
+TestResults/
+*.coverage
+*.coveragejson
+*.cov
+
+# Temporary files
+~$*
