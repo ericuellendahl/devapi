@@ -1,6 +1,6 @@
 ## .NET Core / .NET 8
-bin/
-obj/
+**/bin/
+**/obj/
 out/
 .vscode/
 
