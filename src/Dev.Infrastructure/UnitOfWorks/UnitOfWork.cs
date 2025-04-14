@@ -2,7 +2,7 @@ using Dev.Domain.Abstraction;
 using Dev.Infrastructure.Repositories;
 using Microsoft.EntityFrameworkCore;
 
-namespace Dev.Infrastructure.UnitOfWork;
+namespace Dev.Infrastructure.UnitOfWorks;
 
 public class UnitOfWork (AppContext context) : IUnitOfWork
 {
