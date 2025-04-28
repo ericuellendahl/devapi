@@ -1,8 +1,8 @@
 namespace Dev.Domain.Abstraction;
 
-public class Result<TEntity> where TEntity : BaseEntity
+public class Result<TDto> where TDto : IResult
 {
-    private Result(TEntity data, int statusCode)
+    private Result(TDto data, int statusCode)
     {
         Data = data;
         IsNotSuccessfull = false;
@@ -32,22 +32,22 @@ public class Result<TEntity> where TEntity : BaseEntity
     }
 
 
-    public TEntity Data { get; }
+    public TDto Data { get; }
     public bool IsNotSuccessfull { get; }
     public int StatusCode { get; }
     public Dictionary<string, string> Errors { get; set; }
 
-    public static Result<TEntity> Success(TEntity data, int statusCode)
+    public static Result<TDto> Success(TDto data, int statusCode)
     => new(data, statusCode);
 
-    public static Result<TEntity> Success(int statusCode)
+    public static Result<TDto> Success(int statusCode)
     => new(statusCode);
 
-    public static Result<TEntity> Failed(int statusCode, string errorCode, string errorMessage)
+    public static Result<TDto> Failed(int statusCode, string errorCode, string errorMessage)
     => new(statusCode, errorCode, errorMessage);
 
-    public static Result<TEntity> Failed(int statusCode, Dictionary<string, string> errors)
+    public static Result<TDto> Failed(int statusCode, Dictionary<string, string> errors)
     => new(statusCode, errors);
 }
 
-public class NoContentDto;
+public class NoContentDto : IResult;
